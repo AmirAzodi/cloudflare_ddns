@@ -33,12 +33,14 @@ public_IPv6 = None
 ip_version = None
 
 try:
-  public_IPv4 = urllib2.urlopen(urllib2.Request('http://ipv4.icanhazip.com/')).read().rstrip()
+  # http://ipv4.icanhazip.com/ = 104.238.141.75
+  public_IPv4 = urllib2.urlopen(urllib2.Request('104.238.141.75')).read().rstrip()
 except urllib2.URLError as e:
   print('* no public IPv4 address detected')
 
 try:
-  public_IPv6 = urllib2.urlopen(urllib2.Request('http://ipv6.icanhazip.com/')).read().rstrip()
+  # http://ipv6.icanhazip.com/ = [2001:19f0:9000:8945::31]
+  public_IPv6 = urllib2.urlopen(urllib2.Request('[2001:19f0:9000:8945::31]')).read().rstrip()
 except urllib2.URLError as e:
   print('* no public IPv6 address detected')
 
