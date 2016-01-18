@@ -6,7 +6,7 @@ Unless you have a static public IP address, this is probably the most reliable w
 #####Features:
 * Supports IPv4 and IPv6 records (A, AAAA)
 * Supports multiple domains with multiple hosts per domain
-* Simultaneous IPv4 and IPv4 support for single host
+* Simultaneous IPv4 and IPv6 support for single host
 * No third party libraries used. Only standard python libs.
 * Works with Python 2 and 3
 * Designed to run on any OS that supports Python (i.e. not dependent on any OS specific tools)
