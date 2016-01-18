@@ -24,12 +24,12 @@ Unless you have a static public IP address, this is probably the most reliable w
      "id": "", 
      "ipv4": "", 
      "ipv6": "", 
-     "name": "HOST_NAME_HERE", 
+     "name": "HOST_NAME_HERE e.g. www", 
      "types": ["A"]
     }
    ], 
    "id": "", 
-   "name": "DOMAIN_NAME_HERE"
+   "name": "DOMAIN_NAME_HERE e.g. myserver.com"
   }
  ], 
  "user": {
